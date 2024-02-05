@@ -533,10 +533,17 @@ section {
 }
 
 .about .content ul strong {
-  margin-right: 10px;
+  margin-right: 4px;
 }
 
 .about .content ul i {
+  font-size: 16px;
+  margin-right: 5px;
+  color: #0563bb;
+  line-height: 0;
+}
+
+.about_me ul i {
   font-size: 16px;
   margin-right: 5px;
   color: #0563bb;
@@ -551,10 +558,16 @@ section {
   margin-bottom: -100px;
 }
 
-@media (max-width: 991px) {
-  .about_me ul li span,
-  .about_me ul li strong{
+@media (max-width: 767px) {
+  .about .about_me ul li span,
+  .about .about_me ul li strong{
     font-size: 12px;
+  }
+}
+
+@media (max-width: 767px) {
+  .navbar .nav-menu li i.bi.bi-chevron-right{
+    font-size: 9px;
   }
 }
 
